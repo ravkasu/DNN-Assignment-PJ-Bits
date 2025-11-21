@@ -1,0 +1,24 @@
+DNN_Assignment_<YourID>/
+├─ data/                         # raw and processed datasets
+│  ├─ raw/                       # original CSV / downloaded file(s)
+│  ├─ processed/                 # cleaned/split CSVs (train/test)
+├─ notebooks/
+│  ├─ DNN_Assignment_Template.ipynb   # official template (copy & edit)
+│  ├─ experiments.ipynb               # short experiments & debugging
+├─ src/
+│  ├─ __init__.py
+│  ├─ data_loader.py            # load, describe, preprocess functions
+│  ├─ baseline.py               # BaselineModel class skeleton (from-scratch)
+│  ├─ mlp.py                    # MLP class skeleton (from-scratch)
+│  ├─ metrics.py                # evaluation metrics (MSE, accuracy, etc.)
+│  ├─ utils.py                  # helper funcs (seed, save/load models, timers)
+│  └─ results_extractor.py      # get_assignment_results implementation
+├─ tests/
+│  ├─ test_shapes.py            # small tests for shapes & simple runs
+│  └─ test_get_results.py       # check get_assignment_results() format
+├─ .vscode/
+│  └─ settings.json             # recommended settings (optional)
+├─ requirements.txt             # pip dependencies (numpy, pandas, matplotlib)
+├─ environment.yml              # (optional) conda env file
+├─ README.md                    # your final README (template below)
+└─ run.sh                       # convenience script (create env, run notebooks)
